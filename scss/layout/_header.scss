@@ -1,0 +1,26 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    z-index: 9999;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        box-sizing: border-box;
+        color: #fff;
+
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+        .menu {
+            font-size: 1.8rem;
+        }
+    }
+}
